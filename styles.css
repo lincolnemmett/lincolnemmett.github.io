@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a font-family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+/* Style the main content section */
+section {
+    margin: 20px;
+}
+
+/* Style the aside */
+aside {
+    float: right;
+    width: 30%;
+    background-color: #eee;
+    padding: 10px;
+}
+
+/* Style links within the aside */
+aside a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* New Requirements */
+
+/* Font-family declaration */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* :hover pseudo-class for navigation buttons */
+nav a:hover {
+    color: #FF5733; /* Change text color on hover */
+}
+
+/* Float property to position elements side by side */
+.float-example {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Absolute and relative positioning */
+#positioned-absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #E6E6E6;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+}
+
+#positioned-relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: #F0F0F0;
+    padding: 5px;
+}
+
+/* Element selector to style HTML elements */
+h2 {
+    color: #333333; /* Change color of all h2 elements */
+}
+
+/* Class selector used multiple times */
+.highlight {
+    background-color: #FFFF00; /* Apply a yellow background */
+    color: #333; /* Change text color */
+}
+
+/* ID selector to format specific elements */
+#special-section {
+    border: 2px solid #FF5733; /* Add a border */
+    padding: 10px;
+}
